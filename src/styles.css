@@ -88,7 +88,6 @@ p {
 .about-paragraphs p {
   margin: 10px;
   background-color: none;
- 
 }
 
 img {
@@ -118,14 +117,20 @@ img {
   border-radius: 4px;
   box-shadow: var(--box-shadow);
 }
+
+footer {
+  padding: 15px;
+  margin: 20px;
+}
+
 .contact-tag {
-  font-size: 45px;
+  font-size: 35px;
 }
 .info-content {
   text-align: start;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   div {
     text-align: center;
   }
@@ -141,4 +146,6 @@ img {
   h3{
     font-size: 12px;
   }
+
+
 }
